@@ -6,4 +6,5 @@ configuration:
       - app.js
       - app.test.js
     project_menu:
+      install: npm install
       test: npm test

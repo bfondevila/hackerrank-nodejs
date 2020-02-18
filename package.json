@@ -1,10 +1,9 @@
 {
-  "name": "test",
+  "name": "hackerrank-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test for hackerrank remote pairing",
   "main": "app.js",
   "scripts": {
-    "pretest": "npm install",
     "test": "./node_modules/.bin/jest"
   },
   "devDependencies": {
