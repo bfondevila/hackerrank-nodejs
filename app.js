@@ -1,7 +1,7 @@
-const myFunction = () => {
-  return "hello";
+const isBalanced = (input) => {
+  return input == "{}";
 };
 
 module.exports = {
-  myFunction
+  isBalanced
 };

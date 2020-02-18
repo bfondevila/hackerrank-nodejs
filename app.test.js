@@ -1,7 +1,7 @@
-const { myFunction } = require("./app");
+const { isBalanced } = require("./app");
 
-describe("myFunction", () => {
-	it("should return hello", () => {
-	  expect(myFunction()).toBe("hello");
+describe("when two curly braces", () => {
+	it("should be balanced", () => {
+	  expect(isBalanced("{}")).toBe(true);
 	});
   });
