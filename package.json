@@ -5,11 +5,10 @@
   "main": "app.js",
   "scripts": {
     "pretest": "npm install",
-    "test": "./node_modules/.bin/jest --reporters=jest-junit"
+    "test": "./node_modules/.bin/jest"
   },
   "devDependencies": {
-    "jest": "^25.1.0",
-    "jest-junit": "^10.0.0"
+    "jest": "^25.1.0"
   },
   "author": "",
   "license": "ISC"
