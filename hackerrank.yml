@@ -8,7 +8,6 @@ configuration:
   ide_config:
     default_open_files:
       - app.js
+      - app.test.js
     project_menu:
-      run: npm start
-      install: npm install
       test: npm test
